@@ -10,13 +10,20 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="pt-24 pb-20 bg-background overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="home" className="pt-24 pb-20 bg-background overflow-hidden relative">
+      {/* Animated background elements */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 gradient-bg opacity-10 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 gradient-bg-2 opacity-10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 w-48 h-48 gradient-bg-3 opacity-10 rounded-full blur-3xl animate-pulse delay-500"></div>
+      </div>
+      
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
-            <div className="inline-flex items-center px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6">
-              <Rocket className="w-4 h-4 mr-2" />
-              Transform Your Digital Presence
+            <div className="inline-flex items-center px-4 py-2 neon-border rounded-full text-sm font-medium mb-6 glow-effect">
+              <Rocket className="w-4 h-4 mr-2 text-[hsl(var(--neon-cyan))]" />
+              <span className="gradient-text">Transform Your Digital Presence</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
               Premium Web Design & 
@@ -28,7 +35,7 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 size="lg"
-                className="gradient-bg text-white hover:opacity-90 transition-all transform hover:scale-105"
+                className="gradient-bg text-white hover:opacity-90 transition-all transform hover:scale-105 glow-effect"
                 onClick={() => scrollToSection("contact")}
               >
                 Start Your Project
@@ -36,6 +43,7 @@ export default function Hero() {
               <Button 
                 variant="outline" 
                 size="lg"
+                className="neon-border hover:bg-[hsl(var(--neon-purple)/0.1)] hover:text-[hsl(var(--neon-cyan))] transition-all"
                 onClick={() => scrollToSection("portfolio")}
               >
                 View Our Work

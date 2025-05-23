@@ -44,10 +44,11 @@ export default function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => {
             const IconComponent = service.icon;
+            const gradientClass = index % 4 === 0 ? 'gradient-bg' : index % 4 === 1 ? 'gradient-bg-2' : index % 4 === 2 ? 'gradient-bg-3' : 'gradient-bg-4';
             return (
-              <Card key={index} className="hover-lift bg-background border-border shadow-lg">
+              <Card key={index} className="hover-lift card-glow">
                 <CardContent className="p-8">
-                  <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-6">
+                  <div className={`w-12 h-12 ${gradientClass} rounded-lg flex items-center justify-center mb-6 glow-effect`}>
                     <IconComponent className="text-white w-6 h-6" />
                   </div>
                   <h3 className="text-xl font-bold text-foreground mb-4">{service.title}</h3>

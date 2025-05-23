@@ -30,15 +30,18 @@ export default function Process() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {steps.map((step, index) => (
-            <div key={index} className="text-center">
-              <div className="w-16 h-16 gradient-bg rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-white font-bold text-xl">{step.number}</span>
+          {steps.map((step, index) => {
+            const gradientClass = index === 0 ? 'gradient-bg' : index === 1 ? 'gradient-bg-2' : 'gradient-bg-3';
+            return (
+              <div key={index} className="text-center">
+                <div className={`w-16 h-16 ${gradientClass} rounded-full flex items-center justify-center mx-auto mb-6 glow-effect`}>
+                  <span className="text-white font-bold text-xl">{step.number}</span>
+                </div>
+                <h3 className="text-xl font-bold text-foreground mb-4">{step.title}</h3>
+                <p className="text-muted-foreground">{step.description}</p>
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-4">{step.title}</h3>
-              <p className="text-muted-foreground">{step.description}</p>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
