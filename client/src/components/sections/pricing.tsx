@@ -75,13 +75,13 @@ export default function Pricing() {
           {plans.map((plan, index) => (
             <Card 
               key={index} 
-              className={`hover-lift bg-background relative ${
-                plan.popular ? "border-primary shadow-2xl" : "border-border shadow-lg"
+              className={`hover-lift card-glow relative ${
+                plan.popular ? "neon-border glow-effect shadow-2xl" : "shadow-lg"
               }`}
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <Badge className="gradient-bg text-white border-0">Most Popular</Badge>
+                  <Badge className="gradient-bg text-white border-0 glow-effect">Most Popular</Badge>
                 </div>
               )}
               <CardContent className="p-8">
@@ -102,8 +102,8 @@ export default function Pricing() {
                 <Button 
                   className={`w-full ${
                     plan.popular 
-                      ? "gradient-bg text-white hover:opacity-90" 
-                      : "border-primary text-primary hover:bg-primary hover:text-white"
+                      ? "gradient-bg text-white hover:opacity-90 glow-effect" 
+                      : "neon-border hover:bg-[hsl(var(--neon-purple)/0.1)] hover:text-[hsl(var(--neon-cyan))]"
                   } transition-all`}
                   variant={plan.popular ? "default" : "outline"}
                   onClick={scrollToContact}

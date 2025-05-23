@@ -72,7 +72,7 @@ export default function Contact() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Contact Form */}
-          <Card className="bg-background border-border shadow-lg">
+          <Card className="card-glow">
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold text-foreground mb-6">Send us a message</h3>
               <Form {...form}>
@@ -174,7 +174,7 @@ export default function Contact() {
                   />
                   <Button 
                     type="submit" 
-                    className="w-full gradient-bg text-white hover:opacity-90 transition-all"
+                    className="w-full gradient-bg text-white hover:opacity-90 transition-all glow-effect"
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? "Sending..." : "Send Message"}
