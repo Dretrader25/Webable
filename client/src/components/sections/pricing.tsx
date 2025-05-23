@@ -8,8 +8,8 @@ export default function Pricing() {
     {
       name: "Starter",
       description: "Perfect for small businesses and startups",
-      price: "$2,995",
-      period: "One-time payment",
+      price: "$300",
+      period: "/month,
       features: [
         "Custom Website Design",
         "Mobile Responsive",
@@ -23,12 +23,12 @@ export default function Pricing() {
     {
       name: "Professional",
       description: "Ideal for growing businesses",
-      price: "$4,995",
-      period: "One-time payment",
+      price: "$750",
+      period: "/month",
       features: [
         "Everything in Starter",
-        "Advanced SEO Optimization",
-        "E-commerce Integration",
+        "Brand Creation/Makeover",
+        "Google Business Mang.",
         "Content Management System",
         "Email Marketing Setup",
         "6 Months Support"
@@ -38,8 +38,8 @@ export default function Pricing() {
     {
       name: "Enterprise",
       description: "For large organizations with complex needs",
-      price: "$9,995",
-      period: "One-time payment",
+      price: "$999",
+      period: "/month",
       features: [
         "Everything in Professional",
         "Custom Functionality",

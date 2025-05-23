@@ -10,12 +10,6 @@ export default function Testimonials() {
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100"
     },
     {
-      name: "Sarah Johnson",
-      role: "Founder, Creative Studio",
-      content: "The design quality and attention to detail exceeded our expectations. Webable delivered a beautiful, fast-loading website that perfectly represents our brand. Highly recommended!",
-      avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b47c?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100"
-    },
-    {
       name: "David Rodriguez",
       role: "Owner, Fashion Boutique",
       content: "Working with Webable was a game-changer for our e-commerce business. They built us a stunning online store that increased our sales by 250%. The ongoing support has been exceptional.",

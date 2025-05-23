@@ -7,7 +7,7 @@ export default function Services() {
       icon: Brush,
       title: "Web Design & Development",
       description: "Custom, responsive websites that look stunning and perform flawlessly across all devices. Built with the latest technologies.",
-      features: ["Custom UI/UX Design", "Responsive Development", "Performance Optimization"]
+      features: ["Custom Design", "Converting Copy Write", "Google Ranked"]
     },
     {
       icon: Search,
@@ -17,15 +17,15 @@ export default function Services() {
     },
     {
       icon: TrendingUp,
-      title: "Automated Marketing",
-      description: "Scale your marketing efforts with intelligent automation, email campaigns, and conversion optimization strategies.",
-      features: ["Email Automation", "Lead Generation", "Analytics & Reporting"]
+      title: "Quick Delivery",
+      description: "Launch Your Website in Hours — Not Weeks...",
+      features: ["Quick Preview", "Easy Request System", "Unlimited Revisions"]
     },
     {
       icon: Bot,
-      title: "AI Content Creation",
-      description: "Leverage AI technology to create compelling copy, generate ideas, and maintain consistent content across all your channels.",
-      features: ["AI Copywriting", "Content Strategy", "Brand Voice Training"]
+      title: "You Request, We Fulfill",
+      description: "Ever had a digital branding agency on standby? Ever have unlimited revisions?",
+      features: ["Multiple Request", "Task Assigned to Experts", "Affordable Hosting and Management"]
     }
   ];
 

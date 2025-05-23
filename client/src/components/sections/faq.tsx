@@ -7,7 +7,7 @@ export default function FAQ() {
   const faqs = [
     {
       question: "How long does it take to complete a website project?",
-      answer: "Project timelines vary depending on complexity, but most websites are completed within 4-8 weeks. Simple sites can be done in 2-3 weeks, while complex e-commerce or custom applications may take 8-12 weeks. We'll provide a detailed timeline during our initial consultation."
+      answer: "Project timelines vary depending on complexity, but most websites are completed within 48hrs or less"
     },
     {
       question: "Do you provide ongoing maintenance and support?",

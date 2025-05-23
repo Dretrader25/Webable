@@ -23,14 +23,14 @@ export default function Hero() {
           <div className="animate-fade-in">
             <div className="inline-flex items-center px-4 py-2 neon-border rounded-full text-sm font-medium mb-6 glow-effect">
               <Rocket className="w-4 h-4 mr-2 text-[hsl(var(--neon-cyan))]" />
-              <span className="gradient-text">Transform Your Digital Presence</span>
+              <span className="gradient-text">Create Your Digital Presence</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
               Premium Web Design & 
               <span className="gradient-text"> Development</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              We create stunning, high-performance websites that drive results. From custom design to AI-powered marketing solutions, we're your complete digital partner.
+              We create custom, high-performance websites that drive results. From tailored design s to AI-powered marketing solutions, we're your complete digital partner.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 

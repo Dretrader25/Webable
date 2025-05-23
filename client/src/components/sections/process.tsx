@@ -2,18 +2,18 @@ export default function Process() {
   const steps = [
     {
       number: "1",
-      title: "Discovery & Strategy",
-      description: "We start by understanding your business, goals, and target audience to create a tailored strategy that drives results."
+      title: "Subscribe and Onboarding",
+      description: "Choose a plan that fits your needs — then begin the easiest onboarding process you've ever experienced!"
     },
     {
       number: "2",
       title: "Design & Development",
-      description: "Our team creates beautiful, functional designs and develops them using the latest technologies and best practices."
+      description: "Upload your content, or answer a few simple questions. We handle the rest."
     },
     {
       number: "3",
       title: "Launch & Optimize",
-      description: "We launch your project and continuously monitor performance, making optimizations to ensure maximum impact."
+      description: "You’ll get a custom, mobile-ready, SEO-friendly website in your inbox within hours. Seriously."
     }
   ];
 
