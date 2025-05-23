@@ -48,14 +48,14 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-md border-b border-border z-50 scan-lines">
+    <nav className="fixed top-0 w-full bg-background/90 backdrop-blur-md border-b border-border z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 gradient-bg rounded flex items-center justify-center matrix-glow">
-              <Code className="text-black w-4 h-4" />
+            <div className="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center glow-effect">
+              <Code className="text-white w-4 h-4" />
             </div>
-            <span className="text-xl font-bold gradient-text terminal-effect">WEBABLE</span>
+            <span className="text-xl font-bold gradient-text">Webable</span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
@@ -77,10 +77,10 @@ export default function Navigation() {
               Login
             </Button>
             <Button 
-              className="gradient-bg text-black hover:opacity-90 transition-all matrix-glow terminal-effect"
+              className="gradient-bg text-white hover:opacity-90 transition-opacity"
               onClick={() => scrollToSection("contact")}
             >
-              [INIT_SESSION]
+              Get Started
             </Button>
             <Button
               variant="ghost"

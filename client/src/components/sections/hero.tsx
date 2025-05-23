@@ -21,36 +21,32 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
-            <div className="inline-flex items-center px-4 py-2 neon-border rounded text-sm font-medium mb-6 matrix-glow terminal-effect">
-              <Rocket className="w-4 h-4 mr-2 text-[hsl(var(--matrix-green))]" />
-              <span className="text-[hsl(var(--matrix-green))]">[SYSTEM_INITIALIZED]</span>
+            <div className="inline-flex items-center px-4 py-2 neon-border rounded-full text-sm font-medium mb-6 glow-effect">
+              <Rocket className="w-4 h-4 mr-2 text-[hsl(var(--neon-cyan))]" />
+              <span className="gradient-text">Transform Your Digital Presence</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6 terminal-effect">
-              ELITE WEB 
-              <span className="gradient-text">DEVELOPMENT</span>
-              <br />
-              <span className="text-2xl md:text-3xl text-[hsl(var(--matrix-green))]">./hack_the_web.exe</span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
+              Premium Web Design & 
+              <span className="gradient-text"> Development</span>
             </h1>
-            <p className="text-xl text-muted-foreground mb-8 leading-relaxed terminal-effect">
-              {'>'} Penetrating digital barriers with precision code craftsmanship<br/>
-              {'>'} Deploying AI-enhanced cyber solutions for maximum system efficiency<br/>
-              {'>'} Your gateway to the next-gen web infrastructure
+            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+              We create stunning, high-performance websites that drive results. From custom design to AI-powered marketing solutions, we're your complete digital partner.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 size="lg"
-                className="gradient-bg text-black hover:opacity-90 transition-all transform hover:scale-105 matrix-glow terminal-effect"
+                className="gradient-bg text-white hover:opacity-90 transition-all transform hover:scale-105 glow-effect"
                 onClick={() => scrollToSection("contact")}
               >
-                [EXECUTE_PROJECT]
+                Start Your Project
               </Button>
               <Button 
                 variant="outline" 
                 size="lg"
-                className="neon-border hover:bg-[hsl(var(--matrix-green)/0.1)] hover:text-[hsl(var(--matrix-green))] transition-all terminal-effect"
+                className="neon-border hover:bg-[hsl(var(--neon-purple)/0.1)] hover:text-[hsl(var(--neon-cyan))] transition-all"
                 onClick={() => scrollToSection("portfolio")}
               >
-                ./view_portfolio.sh
+                View Our Work
               </Button>
             </div>
             <div className="flex items-center space-x-8 mt-12">
