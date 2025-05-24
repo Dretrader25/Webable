@@ -38,7 +38,7 @@ export default function Pricing() {
     {
       name: "Enterprise",
       description: "For large organizations with complex needs",
-      price: "$999",
+      price: "$9,995",
       period: "/month",
       features: [
         "Everything in Professional",
