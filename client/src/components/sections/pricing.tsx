@@ -23,8 +23,8 @@ export default function Pricing() {
     {
       name: "Professional",
       description: "Ideal for growing businesses",
-      price: "$750",
-      period: "/month",
+      price: "$4,995",
+      period: "One-time payment",
       features: [
         "Everything in Starter",
         "Brand Creation/Makeover",
