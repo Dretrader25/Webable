@@ -9,7 +9,7 @@ export default function Pricing() {
       name: "Starter",
       description: "Perfect for small businesses and startups",
       price: "$2,995",
-      period: "One-time payment",
+      period: "/month",
       features: [
         "Custom Website Design",
         "Mobile Responsive",
