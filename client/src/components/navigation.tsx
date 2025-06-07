@@ -58,7 +58,7 @@ export default function Navigation() {
             <span className="text-xl font-bold gradient-text">Webable</span>
           </div>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8 pl-4">
             {navLinks.map((link) => (
               <button
                 key={link.id}

@@ -8,7 +8,7 @@ export default function Pricing() {
     {
       name: "Starter",
       description: "Perfect for small businesses and startups",
-      price: "$2,995",
+      price: "$100",
       period: "/month",
       features: [
         "Custom Website Design",
@@ -23,7 +23,7 @@ export default function Pricing() {
     {
       name: "Professional",
       description: "Ideal for growing businesses",
-      price: "$4,995",
+      price: "$350",
       period: "/month",
       features: [
         "Everything in Starter",
@@ -38,7 +38,7 @@ export default function Pricing() {
     {
       name: "Enterprise",
       description: "For large organizations with complex needs",
-      price: "$9,995",
+      price: "$750",
       period: "/month",
       features: [
         "Everything in Professional",
